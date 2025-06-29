@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">Tic Tac Toe</string>
+    <string name="tic_tac_toe_icon">Tic Tac Toe Icon</string>
+    <string name="tic_tac_toe">Tic Tac Toe</string>
+    <string name="start_game">Start Game</string>
+    <string name="exit">Exit</string>
+    <string name="reset_game">Reset Game</string>
+    <string name="player_x_s_turn">Player X\'s Turn</string>
+    <string name="player_turn">Player %1$s\'s turn</string>
+    <string name="given_player_win">Player %1$s Win</string>
+    <string name="button">Button</string>
+    <string name="todo">TODO</string>
+    <string name="menu">TODO</string>
+    <string name="remove_ads">Remove Ads</string>
+    <string name="rate_us">Rate Us</string>
+    <string name="share">Share</string>
+    <string name="join_us">Join Us</string>
+    <string name="feedback_for_improve">FeedBack For Improve</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="terms_and_conditions">Terms And Conditions</string>
+    <string name="image">TODO</string>
+    <string name="yogesh_patel">Yogesh Patel</string>
+    <string name="setting">TODO</string>
+    <string name="start_offline">Start Offline</string>
+    <string name="start_online">Start Online</string>
+    <string name="play_online">Play Online</string>
+    <string name="play_offline">Play Offline</string>
+    <string name="tictactoe">TicTacToe</string>
+    <string name="create_game_online">Create Game Online</string>
+    <string name="or">Or</string>
+    <string name="enter_game_id">Enter game Id</string>
+    <string name="join_game_online">Join Game Online</string>
+    <string name="about">About</string>
+    <string name="insta">TODO</string>
+    <string name="about_me">About Me</string>
+    <string name="linked">TODO</string>
+    <string name="resetbtn">TODO</string>
+    <string name="reset">Reset</string>
+    <string name="resetbtn2">Reset</string>
+    <string name="name">About</string>
+    <string name="yogesh_patel_name">Yogesh Patel</string>
+    <string name="yogesh_patel_name_2">(Yogesh Patel)</string>
+
+</resources>

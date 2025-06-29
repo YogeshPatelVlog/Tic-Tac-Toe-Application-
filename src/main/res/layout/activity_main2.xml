@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:id="@+id/main"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="24dp"
+    android:background="@drawable/activity2bgimage">
+
+    <TextView
+        android:id="@+id/textViewStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:text="@string/player_x_s_turn"
+        android:textColor="@color/white"
+        android:textSize="35sp"
+        android:textStyle="bold" />
+
+    <GridLayout
+        android:id="@+id/gridLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:columnCount="3"
+        android:padding="8dp"
+        android:rowCount="3"
+        tools:ignore="DuplicateIds">
+
+        <!-- 9 Buttons for the Tic Tac Toe board with improved styling -->
+        <Button
+            android:id="@+id/button0"
+            style="@style/TicTacToeButton"
+            android:layout_height="90dp"
+            android:textSize="36sp" />
+
+        <Button
+            android:id="@+id/button1"
+            style="@style/TicTacToeButton"
+            android:height="90dp"
+            android:textSize="36sp" />
+
+        <Button
+            android:id="@+id/button2"
+            style="@style/TicTacToeButton"
+            android:height="90dp"
+            android:textSize="36sp" />
+
+        <Button
+            android:id="@+id/button3"
+            style="@style/TicTacToeButton"
+            android:height="90dp"
+            android:textSize="36sp" />
+
+        <Button
+            android:id="@+id/button4"
+            style="@style/TicTacToeButton"
+            android:height="90dp"
+            android:textSize="36sp" />
+
+        <Button
+            android:id="@+id/button5"
+            style="@style/TicTacToeButton"
+            android:height="90dp"
+            android:textSize="36sp"
+            tools:ignore="SmallSp" />
+
+        <Button
+            android:id="@+id/button6"
+            style="@style/TicTacToeButton"
+            android:height="90dp"
+            android:textSize="36sp" />
+
+        <Button
+            android:id="@+id/button7"
+            style="@style/TicTacToeButton"
+            android:height="90dp"
+            android:textSize="36sp" />
+
+        <Button
+            android:id="@+id/button8"
+            style="@style/TicTacToeButton"
+            android:height="90dp"
+            android:textSize="36sp" />
+    </GridLayout>
+
+
+    <RelativeLayout
+        android:layout_width="160dp"
+        android:layout_height="55dp">
+
+    <ImageButton
+        android:id="@+id/buttonReset"
+        android:layout_width="160dp"
+        android:layout_height="55dp"
+        android:backgroundTint="#2196F3"
+        android:contentDescription="@string/resetbtn"
+        android:paddingHorizontal="32dp"
+        android:paddingVertical="12dp"
+        android:src="@drawable/resetbtn2"
+        android:text="@string/reset_game"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textReset"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/resetbtn2"
+            android:textColor="@color/black"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:layout_centerInParent="true" />
+
+    </RelativeLayout>
+
+</LinearLayout>
